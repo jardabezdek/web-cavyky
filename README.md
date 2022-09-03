@@ -1,2 +1,4 @@
-# web-cavyky
-cavyky band web page accessible through this link: https://www.cavyky.cz
+# cavyky 🖤
+
+- This is repository of cavyky band web page 🎤 🎸 🥁
+- The production web page can be found [here](https://www.cavyky.cz).
