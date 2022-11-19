@@ -12,3 +12,11 @@
 ### How to dev
 
 - No environment setup is needed.
+
+### How to deploy
+
+[<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/FTP-Deploy-Action)
+
+In order to automatically deploy the web on FTP server, GitHub workflow is set.
+**BUT!** Used FTP account needs to be manually unlocked in the FTP administration
+to make it work (only for 12 hours). :cry:
