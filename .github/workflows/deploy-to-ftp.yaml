@@ -14,4 +14,4 @@ jobs:
         server: ftp.cavyky.cz
         username: ${{ secrets.FTP_SERVER_USERNAME }}
         password: ${{ secrets.FTP_SERVER_PASSWORD }}
-        server-dir: /www/
+        server-dir: /public_html/www/
