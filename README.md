@@ -11,11 +11,13 @@
 
 ### How to dev
 
-- No environment setup is needed.
+```bash
+npm install
+npm run dev
+```
 
 ### How to deploy
 
 [<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/FTP-Deploy-Action)
 
-In order to automatically deploy the web on FTP server, GitHub workflow is set. It means that all
-you need to do is to push the code into the `master` branch! :muscle:
+Push to the `master` branch — the GitHub workflow will build and deploy automatically. :muscle:
