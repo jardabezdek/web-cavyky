@@ -1,8 +1,10 @@
 on:
   push:
     branches:
-      - master
+      - feat/redesign
+
 name: 🚀 Build and deploy
+
 jobs:
   build-and-deploy:
     name: 🎉 Deploy
