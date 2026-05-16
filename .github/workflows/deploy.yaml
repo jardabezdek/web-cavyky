@@ -1,0 +1,35 @@
+on:
+  push:
+    branches:
+      - master
+
+name: 🚀 Build and deploy
+
+jobs:
+  build-and-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+
+      - name: 🔧 Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🏗️ Build
+        run: npm run build
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ftp.cavyky.cz
+          username: ${{ secrets.FTP_SERVER_USERNAME }}
+          password: ${{ secrets.FTP_SERVER_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: /public_html/www/
