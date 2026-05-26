@@ -39,12 +39,12 @@ export const YOUTUBE_VIDEOS = [
 ];
 
 export const GALLERY_IMAGES = [
-  { id: 1, url: '/photos/galery-1.jpg', alt: 'Atmosféra koncertu' },
-  { id: 2, url: '/photos/galery-2.jpeg', alt: 'Akustické kytary' },
-  { id: 3, url: '/photos/galery-3.jpeg', alt: 'Mikrofon a světla' },
-  { id: 4, url: '/photos/galery-4.jpg', alt: 'Zpěvák' },
-  { id: 5, url: '/photos/galery-5.png', alt: 'Kapela' },
-  { id: 6, url: '/photos/galery-6.jpg', alt: 'Festival' },
+  { id: 1, url: '/photos/galery-1.jpg', alt: 'Pivko' },
+  { id: 2, url: '/photos/galery-2.jpg', alt: 'U dvěří' },
+  { id: 3, url: '/photos/galery-3.jpg', alt: 'Monika' },
+  { id: 4, url: '/photos/galery-4.jpg', alt: 'Jirka' },
+  { id: 5, url: '/photos/galery-5.jpg', alt: 'Martin' },
+  { id: 6, url: '/photos/galery-6.jpg', alt: 'Jarda' },
 ];
 
 export const REPERTOIRE = [
