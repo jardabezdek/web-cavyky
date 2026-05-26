@@ -133,18 +133,18 @@ export const REPERTOIRE = [
 export const TESTIMONIALS = [
   {
     text: "Cavyky nám zahráli na svatbě a bylo to naprosto neskutečné. Parket byl plný od první do poslední písničky. Lepší kapelu jsme si nemohli přát!",
-    author: "Aneta & Tomáš",
-    event: "Svatba, Znojmo",
+    author: "Markéta & Tomáš",
+    event: "Svatba, Vysočina",
   },
   {
     text: "Hledali jsme kapelu, která dokáže roztančit maturanty i jejich rodiče. Zvládli to na jedničku s hvězdičkou. Obrovská energie a profi přístup.",
     author: "Pořadatelé plesu",
-    event: "Maturitní ples, Brno",
+    event: "Maturitní ples, Vyškov",
   },
   {
     text: "Nejlepší volba pro naši firemní akci. Skvělá domluva, úžasný repertoár a hudební výkony, ze kterých jsme měli husí kůži. Určitě ne naposledy!",
     author: "Event Manager",
-    event: "Firemní večírek, Praha",
+    event: "Firemní večírek, Brno",
   },
 ];
 
