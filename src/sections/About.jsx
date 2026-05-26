@@ -20,6 +20,16 @@ export default function About() {
               Nyní už se vlastní tvorbě nevěnujeme a veškerou energii investujeme do cavyků. Učíme se nové věci, objíždíme společenské akce a snažíme se lidem připomínat, že je na světě krásně.
             </p>
           </Reveal>
+          <Reveal delay={400}>
+            <p>
+              Na začátku roku 2026 se náš původní zpěvák Honza odstěhoval do zahraničí, a tak jsme otevřeli novou kapitolu. Do kapely přišla skvělá zpěvačka Monika, kterou můžete znát z brněnských kapel Demodium nebo Beaters. Ta s sebou přinesla svěží energii, zkušenosti i chuť posouvat naši muziku dál.
+            </p>
+          </Reveal>
+          <Reveal delay={400}>
+            <p>
+              #nedelejcavyky
+            </p>
+          </Reveal>
         </div>
       </div>
     </section>
