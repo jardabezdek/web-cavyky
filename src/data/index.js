@@ -151,7 +151,7 @@ export const TESTIMONIALS = [
 export const FAQ = [
   {
     question: "Kolik to stojí?",
-    answer: "25 000 Kč za 4 hodiny hraní. Cena se může měnit dle délky vystoupení.",
+    answer: "29 000 Kč za 4 hodiny hraní. Cena se může měnit dle délky vystoupení.",
   },
   {
     question: "Je cena a délka vystoupení pevná?",
